@@ -22,5 +22,5 @@ setup(
     url = "https://github.com/camilin87/pkgtools",
     download_url = 'https://github.com/camilin87/pkgtools/tarball/' + version,
     package_data={'forecastio': ['LICENSE.txt', 'README.rst']},
-    packages = [pkg_dir + ".modules"]
+    py_modules = ["modules"]
 )
