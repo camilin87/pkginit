@@ -8,9 +8,11 @@ def read(fname):
 
 from distutils.core import setup
 
+version = "0.1"
+
 setup(
     name = pkg_dir,
-    version = "0.1",
+    version = version,
     author = "CASH Productions",
     author_email = "support@cash-productions.com",
     description = ("Generic __index__.py generator"),
@@ -18,6 +20,7 @@ setup(
     license = "GPL v2",
     keywords = "package module loader init",
     url = "https://github.com/camilin87/pkgtools",
+    download_url = 'https://github.com/camilin87/pkgtools/tarball/' + version,
     package_data={'forecastio': ['LICENSE.txt', 'README.rst']},
     packages = [pkg_dir + ".modules"]
 )
