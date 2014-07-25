@@ -8,7 +8,7 @@ def read(fname):
 
 from distutils.core import setup
 
-version = "0.1"
+version = "0.2"
 repo_url = "https://github.com/camilin87/pkginit"
 
 setup(
