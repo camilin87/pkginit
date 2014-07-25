@@ -9,6 +9,7 @@ def read(fname):
 from distutils.core import setup
 
 version = "0.1"
+repo_url = "https://github.com/camilin87/pkginit"
 
 setup(
     name = pkg_dir,
@@ -19,8 +20,8 @@ setup(
     long_description = read("README.rst"),
     license = "GPL v2",
     keywords = "package module loader init",
-    url = "https://github.com/camilin87/pkgtools",
-    download_url = 'https://github.com/camilin87/pkgtools/tarball/' + version,
-    package_data={'forecastio': ['LICENSE.txt', 'README.rst']},
-    py_modules = ["pkgtools"]
+    url = repo_url,
+    download_url = repo_url + "/tarball/" + version,
+    package_data={"forecastio": ["LICENSE.txt", "README.rst"]},
+    py_modules = ["pkginit"]
 )
