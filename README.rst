@@ -5,6 +5,7 @@ pkginit
 Installation
 ############
 .. code-block:: shell
+
     pip install pkginit
 
 Usage
