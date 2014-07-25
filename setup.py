@@ -10,7 +10,7 @@ from distutils.core import setup
 
 setup(
     name = pkg_dir,
-    version = "1.0",
+    version = "0.1",
     author = "CASH Productions",
     author_email = "support@cash-productions.com",
     description = ("Generic __index__.py generator"),
